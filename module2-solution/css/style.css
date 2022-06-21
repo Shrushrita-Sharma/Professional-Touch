@@ -1,0 +1,58 @@
+h1 {
+  font-family: "Pacifico", cursive;
+  font-size: 20;
+  color: rgb(153, 38, 155, 1);
+}
+
+#chicken-section{
+	display:  flex;
+  	background-color: rgb(180, 180, 180);
+  	border: 10px outset #004060;
+}
+
+#mutton-section{
+	display:  flex;
+  	background-color: rgb(180, 180, 180);
+  	border: 2px dashed #004060;
+}
+
+#potato-section{
+	display:  flex;
+  	background-color: #99dd88;
+  	border: 2px dotted #004060;
+}
+
+#chicken-header {
+  background-color: #FF8095;
+  border: 2px dotted #004060;
+}
+
+#mutton-header {
+  background-color: #80FF95;
+  border: 2px dotted #004060;
+}
+
+#potato-header {
+  background-color: #8095FF;
+  border: 2px dotted #004060;
+}
+
+p{
+	color:  lavender;
+	font-size:  16px;
+	width:  100px;
+	text-align: center;
+}
+
+.blue{
+	color:  blue;
+}
+
+p.big{ /*p element with class big*/
+	font-size: 32px;
+	color: rgb(255,0,0,0.8);
+}
+
+article > p{ /*p element direct child of article*/
+	color:  rebeccapurple;
+}
