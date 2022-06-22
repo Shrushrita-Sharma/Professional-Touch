@@ -56,3 +56,35 @@ p.big{ /*p element with class big*/
 article > p{ /*p element direct child of article*/
 	color:  rebeccapurple;
 }
+
+article p{
+	color:  turquoise;
+}
+.colored p{
+	color: olivedrab;
+}
+
+article  > .colored{
+	color: navajowhite;
+}
+
+section > h2{
+
+}
+
+section li {
+
+}
+
+header li{
+	list-style: none;
+}
+
+a:link, a:visited{
+	text-decoration: none;
+	background-color: floralwhite;
+	border: 2px dotted #45ef10;
+	color: darkmagenta;
+	display: block;
+	width:  150px;
+}
